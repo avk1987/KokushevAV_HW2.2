@@ -10,7 +10,7 @@
 		8A3E6888240802E900012C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6887240802E900012C67 /* AppDelegate.swift */; };
 		8A3E688A240802E900012C67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E6889240802E900012C67 /* SceneDelegate.swift */; };
 		8A3E688C240802E900012C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E688B240802E900012C67 /* ViewController.swift */; };
-		8A3E688F240802E900012C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E688D240802E900012C67 /* Main.storyboard */; };
+		8A3E688F240802E900012C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E688D240802E900012C67 /* Main.storyboard */; settings = {ASSET_TAGS = (red, ); }; };
 		8A3E6891240802EB00012C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E6890240802EB00012C67 /* Assets.xcassets */; };
 		8A3E6894240802EB00012C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E6892240802EB00012C67 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -93,6 +93,9 @@
 		8A3E687C240802E900012C67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					red,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Александр Кокушев";
