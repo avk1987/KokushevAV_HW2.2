@@ -17,7 +17,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSu-gp-30X">
                                 <rect key="frame" x="10" y="54" width="394" height="126"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIe-90-Nn4">
                                 <rect key="frame" x="10" y="230" width="394" height="110"/>
@@ -75,21 +75,21 @@
                                                 <rect key="frame" x="-2" y="0.0" width="264" height="31"/>
                                                 <accessibility key="accessibilityConfiguration" label="red"/>
                                                 <connections>
-                                                    <action selector="sliderMoved:forEvent:" destination="BYZ-38-t0r" eventType="valueChanged" id="niP-v5-EE0"/>
+                                                    <action selector="SliderBeenMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="90u-cN-95Q"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Oh5-zN-845">
                                                 <rect key="frame" x="-2" y="40" width="264" height="31"/>
                                                 <accessibility key="accessibilityConfiguration" label="green"/>
                                                 <connections>
-                                                    <action selector="sliderMoved:forEvent:" destination="BYZ-38-t0r" eventType="valueChanged" id="U62-us-fUJ"/>
+                                                    <action selector="SliderBeenMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="BCM-Dw-skg"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="acA-DT-epE">
                                                 <rect key="frame" x="-2" y="80" width="264" height="31"/>
                                                 <accessibility key="accessibilityConfiguration" label="blue"/>
                                                 <connections>
-                                                    <action selector="sliderMoved:forEvent:" destination="BYZ-38-t0r" eventType="valueChanged" id="gcr-AO-JRn"/>
+                                                    <action selector="SliderBeenMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="WOc-3z-VzH"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -114,9 +114,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="blueSlider" destination="acA-DT-epE" id="OKR-F9-fLQ"/>
                         <outlet property="blueValue" destination="Tis-J8-HfJ" id="ZJH-mG-sxl"/>
                         <outlet property="colorView" destination="qSu-gp-30X" id="Qrd-Te-7RR"/>
+                        <outlet property="greenSlider" destination="Oh5-zN-845" id="SwV-XT-Fyw"/>
                         <outlet property="greenValue" destination="Pjc-yH-Rdc" id="fGZ-Dr-8ng"/>
+                        <outlet property="redSlider" destination="kaY-it-0By" id="mxW-hW-8B3"/>
                         <outlet property="redValue" destination="Ckh-EQ-tsw" id="dJS-x6-qDj"/>
                     </connections>
                 </viewController>
